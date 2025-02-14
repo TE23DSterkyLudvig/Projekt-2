@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    grid-template-rows: 10vh,50vh,20vh,20vh;
+    grid-template-columns: 3fr, 2fr;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        color: #FFFFFF;
+        font-family: '', Courier, monospace;
+    }
+}
