@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 10vh 70vh 20vh 20vh;
+    grid-template-rows: 10vh 70vh 70vh 20vh 20vh;
     grid-template-columns: 3fr 2fr;
     background-color: #B1B2C7;
 }
@@ -22,9 +22,10 @@ main{
     display: flex;
     flex-direction: row;
     grid-row: 2/3;
-    
+    gap: 10px;
     img{
-   height: 200px;
+   height: 250px;
+   width: 275px;
     }
 }
 
@@ -33,7 +34,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: #D9D9D9;
+    border: solid black 2.5px;
     button{
         
         font-family: 'Inria Sans', Courier, monospace;
@@ -48,13 +50,32 @@ main{
 display: flex;
 flex-direction: column;
 align-items: center;
-grid-row: 3/4;
-
+background-color: #D9D9D9;
+background-size:cover;
+border: solid black 2.5px;
 button{
     
     font-family: 'Inria Sans', Courier, monospace;
 }
 }
+
+#nedre_delar{
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    img{
+   height: 250px;
+   width: 275px;
+    }
+}
+
+
+
+
+
+
 
 
 
