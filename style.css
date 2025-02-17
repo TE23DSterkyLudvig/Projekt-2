@@ -1,16 +1,67 @@
 body{
     display: grid;
-    grid-template-rows: 10vh,50vh,20vh,20vh;
-    grid-template-columns: 3fr, 2fr;
+    grid-template-rows: 10vh 70vh 20vh 20vh;
+    grid-template-columns: 3fr 2fr;
+    background-color: #B1B2C7;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    background-color: #6673FF;
+    grid-column: 1/3;
     h1{
         color: #FFFFFF;
-        font-family: '', Courier, monospace;
+        font-family: 'Tektur', Courier, monospace;
+        font-size: 60px;
     }
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    grid-row: 2/3;
+    
+    img{
+   height: 200px;
+    }
+}
+
+
+.dator_delar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        
+        font-family: 'Inria Sans', Courier, monospace;
+    }
+}
+
+
+
+
+
+.delar_nedre{
+display: flex;
+flex-direction: column;
+align-items: center;
+grid-row: 3/4;
+
+button{
+    
+    font-family: 'Inria Sans', Courier, monospace;
+}
+}
+
+
+
+.produkt_rubrik{
+    background-color: #F2EFEF;
+    font-family: 'Inria Sans', Courier, monospace;
+}
+.webhallen_pris{
+    font-family: 'Inria Sans', Courier, monospace;
 }
