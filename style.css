@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 10vh 70vh 70vh 20vh 20vh;
+    grid-template-rows: 10vh 70vh 70vh 40vh 40vh;
     grid-template-columns: 3fr 2fr;
     background-color: #B1B2C7;
 }
@@ -22,7 +22,7 @@ main{
     display: flex;
     flex-direction: row;
     grid-row: 2/3;
-    gap: 10px;
+    gap: 20px;
     img{
    height: 250px;
    width: 275px;
@@ -63,7 +63,7 @@ button{
     grid-row: 3/4;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     
     img{
    height: 250px;
@@ -74,15 +74,25 @@ button{
 
 
 
-
-
-
-
-
 .produkt_rubrik{
     background-color: #F2EFEF;
     font-family: 'Inria Sans', Courier, monospace;
 }
 .webhallen_pris{
     font-family: 'Inria Sans', Courier, monospace;
+}
+
+
+
+#robot{
+    display:flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 2/4;
+
+    
+  height:820px;
+   width:auto;
+    max-height: 900px;
+    max-width: 380px;
 }
