@@ -96,3 +96,31 @@ button{
     max-height: 900px;
     max-width: 380px;
 }
+nav{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8DADE8;
+    img{
+   height: 140px;
+   width: 275px;
+    }
+
+}
+nav > article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-family: 'Share Tech', Courier, monospace;
+    }
+}
+
+#Varukorg{
+    display: flex;
+    flex-direction: column;
+    
+}
