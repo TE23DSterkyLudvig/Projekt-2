@@ -140,4 +140,20 @@ nav > article{
         padding-left: 20%;
         padding-right: 20%;
     }
+    #betala{
+        font-family: 'Inria Sans', Courier, monospace;
+        background-color: #FFFFFF;
+        padding: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-self: flex-start;
+    }
+    #summa{
+        font-family: 'Inria Sans', Courier, monospace;
+        align-self: flex-start;
+        margin-top: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size:medium;
+    }
 }
