@@ -1,0 +1,4 @@
+
+
+let produkter = [];
+let 
