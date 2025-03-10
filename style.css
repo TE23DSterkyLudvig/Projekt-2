@@ -211,5 +211,8 @@ footer{
         margin-left: 25%;
         margin-right: 25%;
     }
-    #robot
+    #robot{
+        align-self: center;
+        height: 520px;
+    }
 }
