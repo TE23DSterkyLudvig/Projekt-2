@@ -1,4 +1,4 @@
-
+/* dator*/
 @media screen and (min-width: 1024px) {
     
 
@@ -145,6 +145,8 @@ nav > article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: auto;
+    max-height: 100%;
     background-color: #6673FF;
 
     h2{
@@ -197,6 +199,8 @@ footer{
 }
 
 }
+
+/*ipad*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
@@ -358,6 +362,8 @@ footer{
         margin-right: 25%;
         width: 90%;
         height: auto;
+        overflow-y: auto;
+        max-height: 100%;
         h2{
             font-family: 'Inria Sans', Courier, monospace;
             background-color: #FFFFFF;
@@ -406,6 +412,9 @@ footer{
         }
     }
 }
+
+
+/*telefon*/
 
 @media screen and (max-width: 767px){
     body {
@@ -505,6 +514,8 @@ footer{
         background-color: #6673FF;
         width: 90%;
         padding: 10px;
+        overflow-y: auto;
+        max-height: 100%;
         h2{
             font-family: 'Inria Sans', Courier, monospace;
             background-color: #FFFFFF;

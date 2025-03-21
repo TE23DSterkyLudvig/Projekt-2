@@ -11,15 +11,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="ladda()">
 <header>
     <h1>Elektrorama</h1>
 </header>
+
+
 <div id="ipad_box">
+
+
 <main>
     <article class="dator_delar">
         <p class="produkt_rubrik">RTX 3060</p>
-        <img src="./img/3060.jpg" alt="RTX 3060">
+        <img src="./img/3060.webp" alt="RTX 3060">
         <p class="pris">3000kr</p>
         <a class="länk" href="https://www.webhallen.com/se/product/336849-ASUS-Dual-GeForce-RTX-3060-12GB-OC-V2-LHR">Webhallen</a>
         <button type="button" onclick="lägga_till('3060',3000)">Lägg till i varukorg</button>
@@ -33,7 +37,7 @@
     </article>
     <article class="dator_delar">
         <p class="produkt_rubrik">Intel i5</p>
-        <img src="./img/intel i5.jpg" alt="Intel i5">
+        <img src="./img/intel i5.webp" alt="Intel i5">
         <p class="pris">7000kr</p>
         <a class="länk" href="https://www.webhallen.com/se/product/367627-Intel-Core-i5-14500-14-Cores-20-Threads-2-6Ghz">Webhallen</a>
         <button type="button" onclick="lägga_till('i5', 7000)">Lägg till i varukorg</button>
@@ -44,21 +48,21 @@
 <div id="nedre_delar">
     <article class="delar_nedre">
         <p class="produkt_rubrik">Corsair RMX</p>
-        <img src="./img/rmx.jpg" alt="Corsair RMX">
+        <img src="./img/rmx.webp" alt="Corsair RMX">
         <p class="pris">800kr</p>
         <a class="länk" href="https://www.webhallen.com/se/product/372644-Corsair-RM850x-850W-80-Gold-ATX-3-1">Webhallen</a>
         <button type="button" onclick="lägga_till('RMX', 800)">Lägg till i varukorg</button>
     </article>
     <article class="delar_nedre">
         <p class="produkt_rubrik">Artic alpine 23</p>
-        <img src="./img/artic.jpg" alt="Artic Alpine 23">
+        <img src="./img/artic.webp" alt="Artic Alpine 23">
         <p class="pris">700kr</p>
         <a class="länk" href="https://www.webhallen.com/se/product/336849-ASUS-Dual-GeForce-RTX-3060-12GB-OC-V2-LHR">Webhallen</a>
         <button type="button" onclick="lägga_till('Artic', 700)">Lägg till i varukorg</button>
     </article>
     <article class="delar_nedre">
         <p class="produkt_rubrik">550 MSI Mag Mortar</p>
-        <img src="./img/msi.jpg" alt="MSI">
+        <img src="./img/msi.webp" alt="MSI">
         <p class="pris">3500kr</p>
         <a class="länk" href="https://www.webhallen.com/se/product/320147-MSI-MAG-B550M-MORTAR">Webhallen</a>
         <button type="button" onclick="lägga_till('Mortar', 3500)">Lägg till i varukorg</button>
@@ -68,7 +72,7 @@
 </div>
 
 
-<img id="robot" src="./img/robot nya.jpg" alt="">
+<img id="robot" src="./img/robot-nya.webp" alt="robot">
 
 <div id="Varukorg">
     <h2>Varukorg</h2>
@@ -89,7 +93,7 @@
 
 <article>
     <h2>Elgiganten</h2>
-    <a href="https://www.elgiganten.se/"><img src="./img/elgiganten-logotyp.jpg" alt="Elgiganten"></a>
+    <a href="https://www.elgiganten.se/"><img src="./img/elgiganten-logotyp.webp" alt="Elgiganten"></a>
 </article>
 
 <article>
